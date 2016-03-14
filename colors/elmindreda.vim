@@ -24,11 +24,11 @@ hi SpecialKey   guifg=#00ffff                 ctermfg=cyan
 hi Directory    guifg=#00ffff                 ctermfg=cyan                 
 hi Title        guifg=#ffff00                 ctermfg=yellow                        cterm=none gui=none
 hi WarningMsg   guifg=#ff0000                 ctermfg=red                  
-hi WildMenu     guifg=#ffffff  guibg=#000000  ctermfg=white      ctermbg=black      cterm=none  term=none
-hi ModeMsg      guifg=#007f00                 ctermfg=green            
-hi MoreMsg      guifg=#007f00                 ctermfg=green            
-hi Question     guifg=#007f00                 ctermfg=green                         gui=none
-hi NonText      guifg=#007f00                 ctermfg=green                
+hi WildMenu     guifg=#ffffff  guibg=#000000  ctermfg=white      ctermbg=black      gui=none  term=none  cterm=none
+hi ModeMsg      guifg=#00ff00                 ctermfg=green                         gui=none  term=none  cterm=none
+hi MoreMsg      guifg=#00ff00                 ctermfg=green                         gui=none  term=none  cterm=none
+hi Question     guifg=#00ff00                 ctermfg=green                         gui=none  term=none  cterm=none
+hi NonText      guifg=#007f00                 ctermfg=darkgreen                
 
 " Splitter colors
 hi StatusLine   guifg=#000000  guibg=#ffffff  ctermfg=black      ctermbg=white      gui=none  term=none  cterm=none

@@ -24,10 +24,10 @@ hi SpecialKey   guifg=#00ffff                 ctermfg=cyan
 hi Directory    guifg=#00ffff                 ctermfg=cyan                 
 hi Title        guifg=#ffff00                 ctermfg=yellow                        cterm=none gui=none
 hi WarningMsg   guifg=#ff0000                 ctermfg=red                  
-hi WildMenu     guifg=#ffff00  guibg=#000000  ctermfg=yellow     ctermbg=black      cterm=none  term=none
-hi ModeMsg      guifg=#22cce2                 ctermfg=lightcyan            
-hi MoreMsg      guifg=fg                      ctermfg=darkgreen            
-hi Question     guifg=#ff0000                 ctermfg=red                           gui=none
+hi WildMenu     guifg=#ffffff  guibg=#000000  ctermfg=white      ctermbg=black      cterm=none  term=none
+hi ModeMsg      guifg=#007f00                 ctermfg=green            
+hi MoreMsg      guifg=#007f00                 ctermfg=green            
+hi Question     guifg=#007f00                 ctermfg=green                         gui=none
 hi NonText      guifg=#007f00                 ctermfg=green                
 
 " Splitter colors

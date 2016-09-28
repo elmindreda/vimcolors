@@ -15,7 +15,7 @@ hi Normal       guifg=#ffff00  guibg=#000040  ctermfg=yellow     ctermbg=darkblu
 hi ErrorMsg     guifg=#ffffff  guibg=#ff0000  ctermfg=white      ctermbg=red
 hi Visual       guifg=bg       guibg=#c0c0c0  ctermfg=lightgrey  ctermbg=bg
 hi VisualNOS    guifg=#8080ff  guibg=fg       ctermfg=lightblue  ctermbg=fg
-hi Todo         guifg=#000000  guibg=#ffff00  ctermfg=black      ctermbg=yellow
+hi Todo         guifg=#000000  guibg=#ffff00  ctermfg=black      ctermbg=yellow     cterm=bold gui=bold
 hi Search       guifg=#90fff0  guibg=#2050d0  ctermfg=white      ctermbg=darkblue
 hi IncSearch    guifg=#ffffff  guibg=#000000  ctermfg=white      ctermbg=black
 hi MatchParen   guifg=#ffffff  guibg=bg       ctermfg=white      ctermbg=bg         gui=bold

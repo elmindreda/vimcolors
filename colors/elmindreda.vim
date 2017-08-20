@@ -33,7 +33,7 @@ hi NonText      guifg=#007f00                 ctermfg=darkgreen
 " Splitter colors
 hi StatusLine   guifg=#000000  guibg=#ffffff  ctermfg=black      ctermbg=white      gui=none  term=none  cterm=none
 hi StatusLineNC guifg=#000000  guibg=#808080  ctermfg=black      ctermbg=gray       gui=none  term=none  cterm=none
-hi VertSplit    guifg=#ffffff  guibg=#808080  ctermfg=black      ctermbg=darkgray   gui=none  term=none  cterm=none
+hi VertSplit    guifg=#000000  guibg=#808080  ctermfg=black      ctermbg=gray       gui=none  term=none  cterm=none
 
 " Popup menu
 hi Pmenu        guifg=#000000  guibg=#c0c0c0  ctermfg=black      ctermbg=lightgrey

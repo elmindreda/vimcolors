@@ -21,6 +21,10 @@ hi Question     guifg=#80ff80                 ctermfg=lightgreen
 hi MatchParen   guifg=#90ff90  guibg=bg                                             gui=bold
 hi LineNr       guifg=#60ff60                 ctermfg=lightgreen
 hi Directory    guifg=#40d040                 ctermfg=lightgreen
+hi Folded       guifg=#001000  guibg=#006000  ctermfg=black      ctermbg=darkgreen  gui=bold
+hi ColorColumn  guibg=#003000                                    ctermbg=darkgreen
+hi Error        guibg=#ff8000                                    ctermbg=brown
+hi CursorLine   guifg=#001000  guibg=#008000  ctermfg=black      ctermbg=green
 
 " Splitter
 hi StatusLine   guifg=#000000  guibg=#20a020  ctermfg=black      ctermbg=green      gui=none  term=none      cterm=none
@@ -39,7 +43,7 @@ hi Constant     guifg=#008000                 ctermfg=lightgreen
 hi Special      guifg=#30ff30                 ctermfg=lightgreen
 hi Identifier   guifg=#007000                 ctermfg=green
 hi Statement    guifg=#40ff40                 ctermfg=green                         gui=none
-hi PreProc      guifg=#00c000                 ctermfg=green  
+hi PreProc      guifg=#00c000                 ctermfg=green
 hi Type         guifg=#30ff30                 ctermfg=lightgreen                    gui=none
 hi Underlined                                                                                 term=underline cterm=underline
 hi Ignore       guifg=bg                      ctermfg=bg
@@ -68,4 +72,3 @@ hi link SpecialChar    Special
 hi link Delimiter      Special
 hi link SpecialComment Special
 hi link Debug          Special
-
